@@ -6,8 +6,10 @@ The biggest limitation of this tool is that it only provides the release date of
 
 The script will perform Pulse detection and identify information disclosure in error pages. Requires Python 3 to run.
 
-### RUN:
+### RUN
 
 ./pulse_scanner.py http(s)://yourdomain.something
 
+### Example 
+![image](https://user-images.githubusercontent.com/39335291/116934446-49841780-ac65-11eb-864c-bfbc6ebec8b3.png)
 
