@@ -36,11 +36,11 @@ def retrieve_last_patch_date(url):
 
 def find_date_by_commentary(text):
     x = re.search("(?<=Copyright \(c\))(.*)(?=by)", text)
-    print("The following date was disclosed from a Copyright commentary :" + x.group())    
+    print("[LOW CONFIDENCE] The following date was disclosed from a Copyright commentary :" + x.group())    
 
 def find_date_by_div(text):
     x = re.search("(?<=Copyright &copy;)(.*)(?=Pulse Secure)", text)
-    print("The following date was disclosed from HTML parts :" + x.group())
+    print("[MEDIUM CONFIDENCE] The following date was disclosed from HTML parts :" + x.group())
 
 def main():
     
