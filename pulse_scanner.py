@@ -40,7 +40,7 @@ def find_date_by_commentary(text):
 
 def find_date_by_div(text):
     x = re.search("(?<=Copyright &copy;)(.*)(?=Pulse Secure)", text)
-    print("[MEDIUM CONFIDENCE] The following date was disclosed from HTML parts :" + x.group())
+    print("[HIGH CONFIDENCE] The following date was disclosed from HTML parts :" + x.group())
 
 def main():
     
