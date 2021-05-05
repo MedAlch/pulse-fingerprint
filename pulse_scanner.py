@@ -62,7 +62,7 @@ def main():
                 
     print("-------------------------------------------------------")
     print()
-    print("Correlate your findings with the dates available on\nhttps://support.pulsesecure.net/ to identify the exact version.")
+    print("Correlate your findings with the dates available on https://support.pulsesecure.net/ to identify the exact version.")
     sys.exit(0)
 
 if __name__ == "__main__":
