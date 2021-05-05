@@ -11,5 +11,6 @@ The script will perform Pulse detection and identify information disclosure in e
 ./pulse_scanner.py http(s)://yourdomain.something
 
 ### Example 
-![image](https://user-images.githubusercontent.com/39335291/116934446-49841780-ac65-11eb-864c-bfbc6ebec8b3.png)
+![pulse-enum](https://user-images.githubusercontent.com/39335291/117174653-3d679980-adce-11eb-987a-b1f03132861a.jpg)
+
 
